@@ -1,0 +1,18 @@
+server:
+  port: 8096
+spring:
+  application:
+    name: SPRING-SECURITY
+  jpa:
+    show-sql: true
+    database: postgresql
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/spring_security
+    username: troc
+    password: 123
+  main:
+    allow-circular-references: true
+
